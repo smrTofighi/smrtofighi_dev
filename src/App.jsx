@@ -1,5 +1,5 @@
 import { ThemeProvider } from "./context/ThemeContext";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/Sections/HeroSection";
 import SkillsSection from "./components/Sections/Skills/SkillsSection";
 import ProjectsSection from "./components/Sections/Projects/ProjectsSection";

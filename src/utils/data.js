@@ -48,9 +48,9 @@ export const SKILLS_CATEGORY = [
       { name: "JavaScript", level: 75, color: "bg-yellow-400" },
       { name: "TypeScript", level: 50, color: "bg-blue-700" },
       { name: "Python", level: 60, color: "bg-green-500" },
-      { name: "Java", level: 15, color: "bg-red-600" },
-      { name: "Kotlin", level: 15, color: "bg-red-600" },
-      { name: "GoLang", level: 5, color: "bg-cyan-700" },
+      //{ name: "Java", level: 15, color: "bg-red-600" },
+      //{ name: "Kotlin", level: 100, color: "bg-red-600" },
+      //{ name: "GoLang", level: 5, color: "bg-cyan-700" },
     ],
   },
   {
@@ -140,7 +140,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_1,
     tags: ["React", "Tailwind CSS", "Node.Js"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/smrTofighi/task_management_web",
     featured: false,
     category: "FullStack",
   },
@@ -152,7 +152,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_2,
     tags: ["Flutter", "GetX", "Appwrite"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/smrTofighi/todo_infinity_app",
     featured: true,
     category: "Mobile",
   },
@@ -164,7 +164,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_3,
     tags: ["Flutter", "BloC", "Firebase"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/smrTofighi/spotify_flutter_app",
     featured: true,
     category: "Mobile",
   },
@@ -176,7 +176,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_4,
     tags: ["React", "Tailwind CSS", "Node.Js"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/smrTofighi/blog_web_react",
     featured: true,
     category: "FullStack",
   },
@@ -203,7 +203,7 @@ export const JOURNEY_STEPS = [
 
   {
     year: "2024",
-    title: "Exploring React & Vania",
+    title: "Exploring React Js",
     company: "Self-learning",
     description:
       "Began deepening React skills and explored Vania framework to broaden frontend capabilities.",
@@ -211,7 +211,7 @@ export const JOURNEY_STEPS = [
     color: "bg-indigo-500",
   },
   {
-    year: "2024(Now)",
+    year: "2025(Now)",
     title: "Recently Learning TypeScript, Next.js & Nest.js",
     company: "Self-learning",
     description:

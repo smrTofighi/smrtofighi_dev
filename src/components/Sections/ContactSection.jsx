@@ -259,14 +259,14 @@ const ContactSection = () => {
               variants={itemVariants}
               className={`p-6 rounded-xl border ${
                 isDarkMode
-                  ? "bg-green-500/10 border-green-500/20"
-                  : "bg-green-50 border-green-200"
+                  ? "bg-rose-500/10 border-rose-500/20"
+                  : "bg-rose-50 border-rose-200"
               }`}
             >
               <div className="flex items-center space-x-3 mb-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="font-medium text-green-500">
-                  Available for work
+                <div className="w-3 h-3 bg-rose-500 rounded-full animate-pulse" />
+                <span className="font-medium text-rose-500">
+                  Not Currently Available
                 </span>
               </div>
 
@@ -275,8 +275,7 @@ const ContactSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 }`}
               >
-                I'm currently available for freelance projects and full-time
-                opportunities.
+                I'm not currently available for any projects.
               </p>
             </motion.div>
           </motion.div>
